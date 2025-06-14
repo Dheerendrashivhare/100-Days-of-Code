@@ -1,13 +1,23 @@
-
 credentials/
-
+__pycache__/
+*.pyc
+.env
+*.env
+*.log
+.DS_Store
+*.sqlite3
+venv/
+.venv/
+# Editor backup files
+*~
+.*~
 
 
 # Byte-compiled / optimized / DLL files
-#__pycache__/
+__pycache__/
 *.py[cod]
 *$py.class
-#*__pycache__
+*__pycache__
 
 
 # C extensions
@@ -127,7 +137,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-#.env
+.env
 .venv
 env/
 venv/
